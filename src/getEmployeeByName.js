@@ -1,7 +1,7 @@
 const data = require('../data/zoo_data');
 
 function getEmployeeByName(employeeName) {
-  if(!employeeName){
+  if (!employeeName) {
     return {};
   }
   const collaborator1 = data.employees.find((item) => item.firstName === employeeName);
